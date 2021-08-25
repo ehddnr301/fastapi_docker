@@ -4,7 +4,7 @@
 
 ## 프로젝트 구성
 
-### 테스트 - [commit#1](6de4ec95a080cb38c93c7fbc04b769e7a66ab4e0)
+### 테스트 - [commit#1](https://github.com/ehddnr301/fastapi_docker/commit/6de4ec95a080cb38c93c7fbc04b769e7a66ab4e0)
 
 - [공식문서](https://fastapi.tiangolo.com/deployment/docker/#raspberry-pi-and-other-architectures) 를 따라 실습을 진행합니다.
 
@@ -16,7 +16,7 @@
 
 ![테스트이미지](./image/test_image1.png)
 
-### With Docker - [commit#2](23909356148f189ef64ce9e2bb227aabd9c3a635)
+### With Docker - [commit#2](https://github.com/ehddnr301/fastapi_docker/commit/23909356148f189ef64ce9e2bb227aabd9c3a635)
 
 - 도커환경에서 필요한 라이브러리를 설치할수있게 pip freeze로 requirements.txt를 생성해주었습니다.
 - `docker build -t fastapi .` 명령어로 도커 이미지를 생성합니다.
@@ -26,7 +26,7 @@
 
 ![테스트이미지](./image/test_image2.png)
 
-### FastAPI & Postgresql without Docker
+### FastAPI & Postgresql without Docker - [commit#3](https://github.com/ehddnr301/fastapi_docker/commit/439cd2a28ca2f97414bab8964e63381ddc7cd308)
 
 - local 환경에서 postgresql과 fastapi를 함께 사용하였습니다.
 - [공식문서](https://fastapi.tiangolo.com/tutorial/sql-databases/) 를 따라 진행하였습니다.
