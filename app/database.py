@@ -6,13 +6,13 @@ from dotenv import load_dotenv
 
 load_dotenv(verbose=True)
 
-NAME = os.getenv('NAME')
-PASSWORD = os.getenv('PASSWORD')
-HOST = os.getenv('HOST')
-DB = os.getenv('DB')
+POSTGRES_USER = os.getenv('POSTGRES_USER')
+POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD')
+POSTGRES_PORT = os.getenv('POSTGRES_PORT')
+POSTGRES_SERVER = os.getenv('POSTGRES_SERVER')
+POSTGRES_DB = os.getenv('POSTGRES_DB')
 
-print(NAME, PASSWORD, HOST, DB)
-SQLALCHEMY_DATABASE_URL = f'postgresql://{NAME}:{PASSWORD}@{HOST}/{DB}'
+SQLALCHEMY_DATABASE_URL = f'postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_SERVER}:{POSTGRES_PORT}/{POSTGRES_DB}'
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL

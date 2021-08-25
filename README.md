@@ -37,3 +37,12 @@
 - 테스트결과
 
 ![테스트이미지](./image/test_image3.png)
+
+### FastAPI & Postgresql with Docker
+
+- docker-compose 를 이용해서 FastAPI 와 postgresql을 사용하였습니다.
+- [블로그](https://www.44bits.io/ko/post/almost-perfect-development-environment-with-docker-and-docker-compose) 를 참고하여 진행하였습니다.
+- `Uvicorn running on http://0.0.0.0:8000`라고 뜨지만 `http://127.0.0.1:8000/` 로 접근하여야 합니다.
+- 테스트결과
+
+![테스트이미지](./image/test_image4.png)
