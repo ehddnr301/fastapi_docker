@@ -38,7 +38,7 @@
 
 ![테스트이미지](./image/test_image3.png)
 
-### FastAPI & Postgresql with Docker
+### FastAPI & Postgresql with Docker - [commit#4](https://github.com/ehddnr301/fastapi_docker/commit/17985d8c0fa126ee061610dd59deae96087d0ef5)
 
 - docker-compose 를 이용해서 FastAPI 와 postgresql을 사용하였습니다.
 - [블로그](https://www.44bits.io/ko/post/almost-perfect-development-environment-with-docker-and-docker-compose) 를 참고하여 진행하였습니다.
@@ -46,3 +46,14 @@
 - 테스트결과
 
 ![테스트이미지](./image/test_image4.png)
+
+### FastAPI & Postgresql & ML
+
+- [블로그](https://www.geeksforgeeks.org/deploying-ml-models-as-api-using-fastapi/) 를 참고하여 진행하였습니다.
+- db에 저장된 값을 가져와서 predict 하는 실습입니다.
+- model object의 값만 numpy array로 바꾸어 진행했습니다.
+- 블로그에서는 받은 값을 predict하지만 db를 연결했는데 쓰고싶어서 db값을 가져와서 predict해보았습니다.
+
+- 테스트결과
+
+![테스트이미지](./image/test_image5.png)
